@@ -4,7 +4,7 @@ import EpisodeCard from "./EpisodeCard";
 
 export default function EpisodeList() {
 
-	const [episode, setEpisode] = useState([])
+	const [episodes, setEpisode] = useState([])
 	useEffect(() => {
 		const getEpisode = () => {
 			axios
