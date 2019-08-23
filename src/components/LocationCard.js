@@ -10,6 +10,7 @@ export default function LocationCard(props) {
 				<h1> Name: {locations.name}</h1>
 				<h2>Type: {locations.type}</h2>
 				<h2>Dimension: {locations.dimension}</h2>
+				<p>Residents: {locations.residents.length}</p>
 			</div>
 		</Cards>
 
