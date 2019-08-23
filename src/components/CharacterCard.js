@@ -1,7 +1,8 @@
 import React from "react";
 import CharacterList from "./CharacterList";
 
-export default function CharacterCard({ characters }) {
+export default function CharacterCard(props) {
+	const { characters } = props;
 	return (
 		<div>
 			<img src={characters.image} />
