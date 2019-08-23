@@ -41,3 +41,15 @@ main {
 header h1 {
   text-align: center;
 }
+
+section{
+	display:flex;
+	flex-direction:column;
+	width:40%;
+}
+p {
+	font-size: 10px;
+	overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}

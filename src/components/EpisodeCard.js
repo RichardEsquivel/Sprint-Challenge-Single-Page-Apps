@@ -13,7 +13,6 @@ export default function EpisodeCard(props) {
 				<h1> ID #: {episodes.id}</h1>
 				<h2>Name: {episodes.name}</h2>
 				<h2>Episode #: {episodes.episode}</h2>
-				<h2>Characters: {episodes.characters.residents}</h2>
 			</div>
 		</Cards>
 
