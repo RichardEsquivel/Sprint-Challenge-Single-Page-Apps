@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import CharacterCard from "./CharacterCard";
-import { Cards } from './styles';
 
 export default function CharacterList() {
 
@@ -25,6 +24,7 @@ export default function CharacterList() {
 		<div className="grid-view">
 			{character.map(characters => {
 				return <CharacterCard key={characters.id} characters={characters} />;
+
 			})}
 		</div>
 
